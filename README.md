@@ -1,34 +1,45 @@
-# Technical Writing Portfolio
-
-This repository contains sample technical documentation created based on professional experience.
+# Mobile Data Collection API
 
 ## Overview
-
-The samples demonstrate:
-- Technical documentation (API and user guides)
-- Clarity and structure improvements
-- Editing and proofreading capability
-- Audience-focused writing
+This API supports a mobile application used by field consultants to collect and manage farmer data across FPOs. It enables real-time data capture and retrieval.
 
 ---
 
-## Samples
-
-### API Documentation – Mobile Data Collection App
-Audience: Developers and technical teams  
-Focus: Structured API documentation with request/response formats and error handling  
-
-### User Guide – Mobile Data Collection App
-Audience: Field consultants (non-technical users)  
-Focus: Step-by-step instructions, usability, and troubleshooting  
-
-### Editing and Clarity Improvement Sample
-Focus: Demonstrates ability to refine ambiguous technical content while preserving intent  
-
-### Style Guide (Sample)
-Focus: Demonstrates approach to maintaining consistency and documentation standards  
+## Base URL
+https://api.farmerdata.app/v1
 
 ---
 
-## Note
-All samples are created for demonstration purposes only.
+## Authentication
+All requests require a Bearer Token in the header:
+
+Authorization: Bearer <access_token>
+
+---
+
+## Endpoints
+
+### 1. Submit Farmer Data
+
+**POST** `/collect-data`
+
+**Description:**  
+Creates a new farmer record.
+
+#### Request Body
+```json
+{
+  "farmer_id": "FPO12345",
+  "name": "Ramesh Das",
+  "crop_type": "Rice",
+  "land_size_acres": 2.5,
+  "location": "Nadia, West Bengal",
+  "collection_date": "2023-09-15"
+}
+
+{
+  "status": "success",
+  "message": "Farmer data recorded successfully",
+  "record_id": "REC67890"
+}
+
