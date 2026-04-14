@@ -55,10 +55,11 @@ GET /farmer-records
 Description:
 Retrieves farmer records based on filters.
 
-Query Parameters
-Parameter	Type	Description
-location	string	Filter by location
-start_date	date	Filter from date
+| Parameter  | Type   | Description        |
+| ---------- | ------ | ------------------ |
+| location   | string | Filter by location |
+| start_date | date   | Filter from date   |
+
 Response
 {
   "status": "success",
@@ -95,11 +96,10 @@ Example Error Response
   "message": "Invalid farmer ID"
 }
 Error Codes
-Code	Meaning
-400	Bad request
-401	Unauthorized
-404	Not found
-500	Server error
-Notes
-Ensure required fields are validated before submission
+| Code | Meaning      |
+| ---- | ------------ |
+| 400  | Bad request  |
+| 401  | Unauthorized |
+| 404  | Not found    |
+| 500  | Server error |
 API responses follow a consistent JSON structure
