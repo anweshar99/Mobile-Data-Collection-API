@@ -1,5 +1,11 @@
 # Mobile Data Collection App – User Guide
 
+## Audience
+Field consultants with limited technical background.  
+The document uses simple, step-by-step instructions to ensure ease of use in field conditions.
+
+---
+
 ## Introduction
 This application helps field consultants collect and manage farmer data digitally. It simplifies field data entry and reduces reliance on manual documentation.
 
