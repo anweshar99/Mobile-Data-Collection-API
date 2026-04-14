@@ -17,7 +17,7 @@ All requests require a Bearer Token.
 ### Header Example
 
 
-Authorization: Bearer <access_token>
+#### Authorization: Bearer <access_token>
 
 
 ---
@@ -44,7 +44,7 @@ Creates a new farmer record.
 }
 ```
 
-Response
+### Response
 
 ```json
 {
@@ -69,6 +69,7 @@ Retrieves farmer records based on filters.
 | start_date | date   | Filter from date   |
 
 #### Response
+
 ```json
 {
   "status": "success",
@@ -90,6 +91,7 @@ Retrieves farmer records based on filters.
 Updates an existing farmer record.
 
 #### Request Body
+
 ```json
 {
   "crop_type": "Wheat",
@@ -98,6 +100,7 @@ Updates an existing farmer record.
 ```
 
 #### Response
+
 ```json
 {
   "status": "success",
@@ -110,6 +113,7 @@ Updates an existing farmer record.
 ## Error Handling
 
 ### Example Error Response
+
 ```json
 {
   "status": "error",
