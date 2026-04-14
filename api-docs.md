@@ -18,6 +18,7 @@ https://api.farmerdata.app/v1
 ## Authentication
 
 All requests require a Bearer Token:
+Authorization: Bearer <access_token>
 
 ---
 
@@ -40,6 +41,7 @@ Creates a new farmer record in the system.
   "location": "Nadia, West Bengal",
   "collection_date": "2023-09-15"
 }
+####Response
 {
   "status": "success",
   "message": "Farmer data recorded successfully",
