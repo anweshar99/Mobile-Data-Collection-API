@@ -31,4 +31,4 @@ Focus: Demonstrates approach to maintaining consistency and documentation standa
 ---
 
 ## Note
-All samples are anonymized and created for demonstration purposes only.
+All samples are created for demonstration purposes only.
