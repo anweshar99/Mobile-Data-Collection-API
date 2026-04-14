@@ -41,7 +41,10 @@ Creates a new farmer record in the system.
   "location": "Nadia, West Bengal",
   "collection_date": "2023-09-15"
 }
+
 ####Response
+
+```json
 {
   "status": "success",
   "message": "Farmer data recorded successfully",
@@ -62,6 +65,7 @@ Retrieves farmer records based on filters.
 | start_date | date   | Filter from date   |
 
 #### Response
+
 ```json
 {
   "status": "success",
@@ -73,6 +77,7 @@ Retrieves farmer records based on filters.
     }
   ]
 }
+
 ### 3. Update Farmer Record
 
 **PUT** `/update-record/{record_id}`
