@@ -5,6 +5,11 @@ This API supports a mobile application used by field consultants to record and m
 
 ---
 
+## Audience
+Developers and technical team members responsible for integrating and maintaining the application.
+
+---
+
 ## Base URL
 https://api.farmerdata.app/v1
 
