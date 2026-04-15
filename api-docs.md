@@ -1,7 +1,7 @@
 # Mobile Data Collection API
 
 ## Overview
-This API supports a mobile application used by field consultants to collect and manage farmer data across FPOs.
+This API supports a mobile application (see the [User Guide](./user-guide.md)) used by field consultants to collect and manage farmer data across FPOs.
 
 ---
 
