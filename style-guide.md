@@ -42,7 +42,7 @@ This guide ensures consistency and clarity across technical documentation for th
 ## Error Messages
 
 - Keep messages concise and actionable  
-- Avoid vague phring such as "something went wrong"  
+- Avoid vague phrasing such as "something went wrong"  
 - Prefer: "Invalid farmer ID"  
 
 ---
