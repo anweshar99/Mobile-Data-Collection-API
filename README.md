@@ -76,6 +76,15 @@ The documentation samples focus on:
 
 ---
 
+## Tools and Workflow
+
+- **Version Control:** Git/GitHub for managing changes and collaboration  
+- **Markup:** Markdown (CommonMark) for structured and portable documentation  
+- **Standards:** Based on the Microsoft Writing Style Guide and internal consistency guidelines  
+- **API Validation:** Documentation structured using realistic request and response patterns, informed by typical API workflows  
+
+---
+
 ## Note
 
 All samples are based on prior project experience and are anonymized for demonstration purposes.
